@@ -46,7 +46,5 @@ function solve(maze) {
 
 }
 
-console.log("maze: ", maze[0])
-
 let solver = new solve(maze);
 solver.traverse(0, 0)
